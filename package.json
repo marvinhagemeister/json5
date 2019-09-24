@@ -5,6 +5,7 @@
   "main": "lib/index.js",
   "bin": "lib/cli.js",
   "browser": "dist/index.js",
+  "types": "lib/types.d.ts",
   "files": [
     "lib/",
     "dist/"
@@ -57,6 +58,7 @@
     "eslint-plugin-node": "^8.0.1",
     "eslint-plugin-promise": "^4.0.1",
     "eslint-plugin-standard": "^4.0.0",
+    "microbundle": "^0.11.0",
     "regenerate": "^1.4.0",
     "rollup": "^0.64.1",
     "rollup-plugin-buble": "^0.19.6",
@@ -66,5 +68,10 @@
     "sinon": "^6.3.5",
     "tap": "^12.6.0",
     "unicode-10.0.0": "^0.7.5"
+  },
+  "prettier": {
+    "semi": false,
+    "singleQuote": true,
+    "trailingComma": "all"
   }
 }
